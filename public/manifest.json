@@ -1,35 +1,29 @@
 {
   "manifest_version": 3,
 
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "name": "Arrows For Chess.com",
+  "description": "Adds arrows to the analysis view on chess.com",
   "version": "1.0",
 
-  "options_ui": {
-    "page": "options.html"
+  "icons": {
+    "16": "icons/crown_16.png",
+    "32": "icons/crown_32.png",
+    "64": "icons/crown_64.png",
+    "128": "icons/crown_128.png",
+    "512": "icons/crown_512.png"
   },
 
   "action": {
-    "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
 
   "content_scripts": [
       {
-          "matches": ["<all_urls>"],
+          "matches": ["https://www.chess.com/*"],
           "js": ["js/vendor.js", "js/content_script.js"]
       }
   ],
-
-  "background": {
-    "service_worker": "js/background.js"
-  },
-
   "permissions": [
     "storage"
-  ],
-
-  "host_permissions": [
-    "<all_urls>"
   ]
 }
