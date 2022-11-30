@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8347723-0b34-4ffc-9604-5e0860ecce62" name="Changes" comment="Begonnen mit noation.ts">
-      <change afterPath="$PROJECT_DIR$/src/arrows/arrows.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/chess.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/move.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/notation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scraper/board_state_scraper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scraper/engine_line_scraper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/update_arrows.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/notation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/notation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content_script.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content_script.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/move.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/move.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669750016485</updated>
-      <workItem from="1669750017647" duration="38065000" />
+      <workItem from="1669750017647" duration="38286000" />
     </task>
     <task id="LOCAL-00001" summary="Begonnen mit noation.ts">
       <created>1669761612682</created>

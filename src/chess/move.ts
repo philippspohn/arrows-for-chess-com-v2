@@ -46,7 +46,7 @@ function cleanupMoveName(move: string): string | null {
   return move
 }
 
-// TODO update
+// TODO update, not yet working everywhere (e.g. https://www.chess.com/game/live/63505030647)
 export function whereDoesMoveStart(move: string, piece: Piece): BoardPosition | null {
   let isWhite = isWhitesTurn();
   // Castle
@@ -64,7 +64,6 @@ export function whereDoesMoveStart(move: string, piece: Piece): BoardPosition | 
   if (boardRet == null) return null;
   let board: SquareInfo[][] = boardRet;
 
-  console.log(board);
 
   let cleaned = cleanupMoveName(move)
   if(cleaned == null) return null;
