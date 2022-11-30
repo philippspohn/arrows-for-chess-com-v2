@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8347723-0b34-4ffc-9604-5e0860ecce62" name="Changes" comment="Begonnen mit noation.ts">
+      <change afterPath="$PROJECT_DIR$/GETSTARTED.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/demo_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/move.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/move.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669750016485</updated>
-      <workItem from="1669750017647" duration="38286000" />
+      <workItem from="1669750017647" duration="38671000" />
     </task>
     <task id="LOCAL-00001" summary="Begonnen mit noation.ts">
       <created>1669761612682</created>

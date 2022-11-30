@@ -1,70 +1,21 @@
-# Chrome Extension TypeScript Starter
+# Arrows for Chess.com
 
-![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg)
 
-Chrome Extension, TypeScript and Visual Studio Code
+Chrome Extension that Shows Engine Line Arrows on Analysis Board on Chess.com
 
-## Prerequisites
+On the chess.com analysis board you can only see the engine lines in algebraic notation (d4, f3, ...). I made a chrome extension that visualizes the engine lines with arrows (similar to what you know from Lichess).
 
-* [node + npm](https://nodejs.org/) (Current Version)
+Download here: https://chrome.google.com/webstore/detail/arrows-for-chesscom/deaiombfofdgoldipnjjgbjkhledjhaj
 
-## Option
+Video: https://youtu.be/UDBJ1Lx8h3E
 
-* [Visual Studio Code](https://code.visualstudio.com/)
+## How it works:
 
-## Includes the following
+* Install the chrome extension
+* Go to the game review of a game you've played on chess.com (https://www.chess.com/analysis/game/live/...)
+* Open the analysis tab
+* Enable the "Best Move Arrows"-Toggle
 
-* TypeScript
-* Webpack
-* React
-* Jest
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
+You should now see orange arrows that show you the best moves
 
-## Project Structure
-
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
-
-## Setup
-
-```
-npm install
-```
-
-## Import as Visual Studio Code project
-
-...
-
-## Build
-
-```
-npm run build
-```
-
-## Build in watch mode
-
-### terminal
-
-```
-npm run watch
-```
-
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
-
-## Load extension to chrome
-
-Load `dist` directory
-
-## Test
-`npx jest` or `npm run test`
+![Demo](img/demo_01.png)
